@@ -66,7 +66,7 @@ stages:
             displayName: 'Azure Functions App Deploy: jebrook-linuxconsumptionpython'
             inputs:
               azureSubscription: '$(azureSubscription)'
-              appType: functionAppLinux
+              appType: functionApp
               appName: $(functionAppName)
               package: '$(Pipeline.Workspace)/drop/$(Build.BuildId).zip'
               deploymentMethod: zipDeploy
