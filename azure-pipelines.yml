@@ -20,6 +20,8 @@ variables:
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
+  System.Debug: true
+
 stages:
 - stage: Build
   displayName: Build stage
